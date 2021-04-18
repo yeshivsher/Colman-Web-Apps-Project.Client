@@ -20,112 +20,20 @@
 <body>
 <div class="page-container">
 
-	<div id="top-nav" class="bg-light smaller-font-size text-muted">
-		<nav class="navbar-expand-md container px-3">
-		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<ul class="navbar-nav mr-auto">
-			  <li class="nav-item active">
-				<a class="nav-link text-muted" href="#"><i class="la la-heart"></i> <span class="hidden-xs hidden-sm hidden-md">Wish List (0)</span></a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link text-muted" href="#"><i class="la la-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Shopping Cart</span></a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link text-muted" href="#"><i class="la la-share"></i> <span class="hidden-xs hidden-sm hidden-md">Checkout</span></a>
-			  </li>
-			</ul>
-			
-			<ul class="navbar-nav float-right">
-			  <li class="nav-item dropdown float-right">
-				<a class="nav-link dropdown-toggle text-muted" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="la la-dollar"></i>&ensp;USD</a>
-				<div class="dropdown-menu" aria-labelledby="dropdown01">
-				  <a class="dropdown-item" href="#">Action</a>
-				  <a class="dropdown-item" href="#">Another action</a>
-				  <a class="dropdown-item" href="#">Something else here</a>
-				</div>
-			  </li>
-
-			  <li class="nav-item dropdown float-right">
-				<a class="nav-link dropdown-toggle text-muted" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="la la-flag"></i>&ensp;EN</a>
-				<div class="dropdown-menu" aria-labelledby="dropdown01">
-				  <a class="dropdown-item" href="#">Action</a>
-				  <a class="dropdown-item" href="#">Another action</a>
-				  <a class="dropdown-item" href="#">Something else here</a>
-				</div>
-			  </li>
-			</ul>
-		  </div>
-		  
-		</nav>
-	</div>		
 
 	<header class="container mt-5">
 		
 	  <div class="row">
 		  
-		<div class="col-md-3">
-			<a href="index.html" class="logo">
-				<!-- img src="img/logo.png"--> 
-				<h1 class="text-dark"><i class="text-secondary la la-plug"></i><span>electr<span class="text-secondary">o.</span></span></h1>
-				<small class="text-dark">electronics shopping mall</small>
-				
+		<div class="logo-container">
+			<a href="/" class="logo">
+				<img src="img/colman-logo.png" class="logo-image">
 			</a>
+			<small class="logo-text">Colman Shop Store Project</small>
+
 		</div>
 
-		<div class="col-md-5">
-		   
-		   <form class="">
-	
-				<div class="input-group input-group-lg mb-3" id="search-box">
-				  <input type="text" class="form-control default-font-size" placeholder="Search product" aria-label="Search product">
 
-					<select class="custom-select input-group-append form-control-lg no-border-x default-font-size">
-						<option selected="">All categories</option>
-						<option value="1">One</option>
-						<option value="2">Two</option>
-						<option value="3">Three</option>
-					  </select>
-				  
-				  <div class="input-group-append">
-					  <button class="btn btn-primary" type="button"><i class="la la-search"></i></button>
-				  </div>
-				</div>
-			</form>
-			
-		</div>
-
-		<div class="col-md-4">
-			
-			<div class="dropdown float-right" id="mini-cart">
-			  <a class="btn btn-link dropdown-toggle bg-faded p-0 chevron-big" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				<i class="la la-shopping-cart d-inline-block" style="font-size:42px"><span class="cart-items">3</span></i>&ensp; <div class="d-inline-block text-dark"><span class="small d-block text-left">Your cart</span><span class="font-weight-bold">$3500.05</span></div>
-			  </a>
-
-			  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-				<a class="dropdown-item" href="#">Action</a>
-				<a class="dropdown-item" href="#">Another action</a>
-				<a class="dropdown-item" href="#">Something else here</a>
-			  </div>
-			</div>
-			
-			<div class="dropdown float-right" id="mini-user">
-			  <a class="btn btn-link dropdown-toggle bg-faded p-0 chevron-big" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				<i class="la la-user d-inline-block" style="font-size:42px"></i>&ensp; <div class="d-inline-block text-dark"><span class="small d-block text-left">My account</span><span class="font-weight-bold">Login/Register</span></div>
-			  </a>
-
-			  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-				<a class="dropdown-item" href="#">Action</a>
-				<a class="dropdown-item" href="#">Another action</a>
-				<a class="dropdown-item" href="#">Something else here</a>
-			  </div>
-			</div>
-			
-		</div>
-	  
 	  </div>
 
 	
@@ -418,50 +326,6 @@
     
     </div>
     
-    <footer class="bg-faded text-muted py-5 mt-5">
-		<div class="container">
-		<div class="row">
-				  <div class="col-sm-3">
-			  <h5>Information</h5>
-			  <ul class="list-unstyled">
-				  <li><a href="#">About Us</a></li>
-				  <li><a href="#">Delivery Information</a></li>
-				  <li><a href="#">Privacy Policy</a></li>
-				  <li><a href="#">Terms &amp; Conditions</a></li>
-			  </ul>
-			</div>
-				<div class="col-sm-3">
-			<h5>Customer Service</h5>
-			<ul class="list-unstyled">
-			  <li><a href="#">Contact Us</a></li>
-			  <li><a href="#">Returns</a></li>
-			  <li><a href="#">Site Map</a></li>
-			</ul>
-		  </div>
-		  <div class="col-sm-3">
-			<h5>Extras</h5>
-			<ul class="list-unstyled">
-			  <li><a href="#">Brands</a></li>
-			  <li><a href="#">Gift Certificates</a></li>
-			  <li><a href="#">Affiliate</a></li>
-			  <li><a href="#">Specials</a></li>
-			</ul>
-		  </div>
-		  <div class="col-sm-3">
-			<h5>My Account</h5>
-			<ul class="list-unstyled">
-			  <li><a href="#">My Account</a></li>
-			  <li><a href="#">Order History</a></li>
-			  <li><a href="#">Wish List</a></li>
-			  <li><a href="#">Newsletter</a></li>
-			</ul>
-		  </div>
-		</div>
-			<p class="float-right">
-			  <a href="#">Back to top</a>
-			</p>
-        </div>
-    </footer>
 </div>    
     
 

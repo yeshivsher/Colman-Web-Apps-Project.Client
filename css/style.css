@@ -9081,20 +9081,23 @@ section.parallax.white div > .container > .btn {
   width: 100%; }
 
 .logo {
-  margin-bottom: 0.5rem; 
   width: 100px;
   display: flex;
   
   }
   .logo h1 {
-    margin: 0rem;
-    line-height: 1rem;
-    font-size: 2.1rem;
-    font-weight: 600; 
-    display: flex;
   }
-  .logo small {
-    }
+
+.logo-container {
+  font-weight: bold;
+
+  }
+
+.logo-text {
+  font-weight: bold;
+  margin-left: 40px;
+
+  }
 
 .logo-image{
   width: 100px;
