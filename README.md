@@ -3,7 +3,7 @@ Colman Internet Apps Course Project
 
 
 ## Collaborators
-Michael Rachsha.
+Michael Rakhsha.
 
 Raphael Ben-Hamo.
 
