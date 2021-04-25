@@ -35,10 +35,10 @@
             <div class="navbar-nav">
               <a class="nav-item nav-link active" href="index.html">Home</a>
               <a class="nav-item nav-link" href="category.html">Categories</a>
-              <a class="nav-item nav-link" href="index.html">tab</a>
-              <a class="nav-item nav-link" href="index.html">tab</a>
-              <a class="nav-item nav-link" href="index.html">tab</a>
-              <a class="nav-item nav-link" href="index.html">tab</a>
+              <a class="nav-item nav-link" href="index.html">placeholder</a>
+              <a class="nav-item nav-link" href="index.html">placeholder</a>
+              <a class="nav-item nav-link" href="index.html">placeholder</a>
+              <a class="nav-item nav-link" href="index.html">placeholder</a>
             </div>
           </div>
         </nav>
@@ -490,8 +490,7 @@
           </div>
         </section>
 
-        <div class="container products-tab-carousel">
-          <nav>
+		<div class="container products-tab-carousel">
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
               <a
                 class="nav-item nav-link active"
@@ -501,30 +500,10 @@
                 role="tab"
                 aria-controls="nav-home"
                 aria-selected="true"
-                >Featured products</a
+                >Currently on sale</a
               >
-              <a
-                class="nav-item nav-link"
-                id="nav-profile-tab"
-                data-toggle="tab"
-                href="#nav-profile"
-                role="tab"
-                aria-controls="nav-profile"
-                aria-selected="false"
-                >Popular products</a
-              >
-              <a
-                class="nav-item nav-link"
-                id="nav-contact-tab"
-                data-toggle="tab"
-                href="#nav-contact"
-                role="tab"
-                aria-controls="nav-contact"
-                aria-selected="false"
-                >Bestseller products</a
-              >
+              
             </div>
-          </nav>
           <div class="tab-content" id="nav-tabContent">
             <div
               class="tab-pane fade show active"
@@ -535,13 +514,16 @@
               <section
                 class="container products clearfix"
                 data-component-products="limit:4 page:0 id:1679,807,786,1597"
+                data-products='{"1": "Mac pro", "2":"Ipod"}'
               >
                 <div class="owl-carousel owl-theme">
+                  
+
                   <div class="item" data-product>
                     <article class="product">
                       <a href="product.html" data-url>
                         <img
-                          src="img/products/2.jpg"
+                          src="img/merch/man-coat-blue.png"
                           class="img-fluid"
                           data-img
                         />
@@ -553,13 +535,56 @@
                           data-product-url
                           data-name
                           data-url
-                          >Apple cinema</a
+                          >Blue mens coat</a
                         >
                       </h3>
 
-                      <span class="description" data-product-description>
-                        Lorem ipsum
-                      </span>
+                      <div class="price-group">
+                        <div class="old-price">
+                          <span class="currency" data-product-currency>$</span>
+                          <span data-product-price>240</span>
+                        </div>
+
+                        <div class="price">
+                          <span class="currency" data-product-currency>$</span>
+                          <span data-product-price>89</span>
+                        </div>
+                      </div>
+
+                      <div class="btngroup">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-secondary"
+                          title="Add to Cart"
+                          data-product-cart-url
+                          data-vvveb-action="addCart"
+                        >
+                          <i class="la la-shopping-cart"></i> Add to cart
+                        </button>
+                      </div>
+                    </article>
+                    <!-- product -->
+                  </div>
+                  <!-- col-md -->
+				  <div class="item" data-product>
+                    <article class="product">
+                      <a href="product.html" data-url>
+                        <img
+                          src="img/merch/man-shirt.png"
+                          class="img-fluid"
+                          data-img
+                        />
+                      </a>
+
+                      <h3>
+                        <a
+                          href="product.html"
+                          data-product-url
+                          data-name
+                          data-url
+                          >Men white polo shirt</a
+                        >
+                      </h3>
 
                       <div class="price-group">
                         <div class="old-price">
@@ -574,6 +599,105 @@
                       </div>
 
                       <div class="btngroup">
+                        <a
+                          type="button"
+                          class="btn btn-sm btn-secondary"
+                          title="Add to Cart"
+                          href=""
+                          data-product-cart-url
+                          data-vvveb-action="addCart"
+                          data-product_id="40"
+                        >
+                          <i class="la la-shopping-cart"></i> Add to cart
+                        </a>
+                      </div>
+                    </article>
+                    <!-- product -->
+                  </div>
+                  <!-- col-md -->
+
+				  <div class="item" data-product>
+                    <article class="product">
+                      <a href="product.html" data-url>
+                        <img
+                          src="img/merch/women-dress-purple.png"
+                          class="img-fluid"
+                          data-img
+                        />
+                      </a>
+
+                      <h3>
+                        <a
+                          href="product.html"
+                          data-product-url
+                          data-name
+                          data-url
+                          >Stunning dress</a
+                        >
+                      </h3>
+
+                      <div class="price-group">
+                        <div class="old-price">
+                          <span class="currency" data-product-currency>$</span>
+                          <span data-product-price>202</span>
+                        </div>
+
+                        <div class="price">
+                          <span class="currency" data-product-currency>$</span>
+                          <span data-product-price>130</span>
+                        </div>
+                      </div>
+
+                      <div class="btngroup">
+                        <a
+                          type="button"
+                          class="btn btn-sm btn-secondary"
+                          title="Add to Cart"
+                          href=""
+                          data-product-cart-url
+                          data-vvveb-action="addCart"
+                          data-product_id="40"
+                        >
+                          <i class="la la-shopping-cart"></i> Add to cart
+                        </a>
+                      </div>
+                    </article>
+                    <!-- product -->
+                  </div>
+
+                  <div class="item" data-product>
+                    <article class="product">
+                      <a href="product.html" data-url>
+                        <img
+                          src="img/merch/woman-shirt-green.png"
+                          class="img-fluid"
+                          data-img
+                        />
+                      </a>
+
+                      <h3>
+                        <a
+                          href="product.html"
+                          data-product-url
+                          data-name
+                          data-url
+                          >Woman green shirt</a
+                        >
+                      </h3>
+
+                      <div class="price-group">
+                        <div class="old-price">
+                          <span class="currency" data-product-currency>$</span>
+                          <span data-product-price>230</span>
+                        </div>
+
+                        <div class="price">
+                          <span class="currency" data-product-currency>$</span>
+                          <span data-product-price>199</span>
+                        </div>
+                      </div>
+
+                      <div class="btngroup">
                         <button
                           type="button"
                           class="btn btn-sm btn-secondary"
@@ -582,24 +706,6 @@
                           data-vvveb-action="addCart"
                         >
                           <i class="la la-shopping-cart"></i> Add to cart
-                        </button>
-
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to favorites"
-                          data-product-fav-url
-                        >
-                          <i class="la la-heart"></i>
-                        </button>
-
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to compare"
-                          data-product-compare-url
-                        >
-                          <i class="la la-exchange"></i>
                         </button>
                       </div>
                     </article>
@@ -611,7 +717,7 @@
                     <article class="product">
                       <a href="product.html" data-url>
                         <img
-                          src="img/products/2.jpg"
+                          src="img/merch/man-shoe-brown.png"
                           class="img-fluid"
                           data-img
                         />
@@ -623,7 +729,7 @@
                           data-product-url
                           data-name
                           data-url
-                          >Apple cinema</a
+                          >Mens brown oxford</a
                         >
                       </h3>
 
@@ -634,12 +740,12 @@
                       <div class="price-group">
                         <div class="old-price">
                           <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>385</span>
+                          <span data-product-price>460</span>
                         </div>
 
                         <div class="price">
                           <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>315</span>
+                          <span data-product-price>299</span>
                         </div>
                       </div>
 
@@ -654,22 +760,54 @@
                           <i class="la la-shopping-cart"></i> Add to cart
                         </button>
 
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to favorites"
-                          data-product-fav-url
-                        >
-                          <i class="la la-heart"></i>
-                        </button>
+                       
+                      </div>
+                    </article>
+                    <!-- product -->
+                  </div>
+                  <!-- col-md -->
 
+                  <div class="item" data-product>
+                    <article class="product">
+                      <a href="product.html" data-url>
+                        <img
+                          src="img/merch/woman-coat-white.png"
+                          class="img-fluid"
+                          data-img
+                        />
+                      </a>
+
+                      <h3>
+                        <a
+                          href="product.html"
+                          data-product-url
+                          data-name
+                          data-url
+                          >Woman white coat</a
+                        >
+                      </h3>
+
+                      <div class="price-group">
+                        <div class="old-price">
+                          <span class="currency" data-product-currency>$</span>
+                          <span data-product-price>368</span>
+                        </div>
+
+                        <div class="price">
+                          <span class="currency" data-product-currency>$</span>
+                          <span data-product-price>320</span>
+                        </div>
+                      </div>
+
+                      <div class="btngroup">
                         <button
                           type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to compare"
-                          data-product-compare-url
+                          class="btn btn-sm btn-secondary"
+                          title="Add to Cart"
+                          data-product-cart-url
+                          data-vvveb-action="addCart"
                         >
-                          <i class="la la-exchange"></i>
+                          <i class="la la-shopping-cart"></i> Add to cart
                         </button>
                       </div>
                     </article>
@@ -681,7 +819,7 @@
                     <article class="product">
                       <a href="product.html" data-url>
                         <img
-                          src="img/products/3.jpg"
+                          src="img/merch/man-shorts-black.png"
                           class="img-fluid"
                           data-img
                         />
@@ -693,23 +831,19 @@
                           data-product-url
                           data-name
                           data-url
-                          >Apple cinema</a
+                          >Black mens shorts</a
                         >
                       </h3>
-
-                      <span class="description" data-product-description>
-                        Lorem ipsum
-                      </span>
 
                       <div class="price-group">
                         <div class="old-price">
                           <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>385</span>
+                          <span data-product-price>220</span>
                         </div>
 
                         <div class="price">
                           <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>315</span>
+                          <span data-product-price>170</span>
                         </div>
                       </div>
 
@@ -724,233 +858,7 @@
                           <i class="la la-shopping-cart"></i> Add to cart
                         </button>
 
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to favorites"
-                          data-product-fav-url
-                        >
-                          <i class="la la-heart"></i>
-                        </button>
-
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to compare"
-                          data-product-compare-url
-                        >
-                          <i class="la la-exchange"></i>
-                        </button>
-                      </div>
-                    </article>
-                    <!-- product -->
-                  </div>
-                  <!-- col-md -->
-
-                  <div class="item" data-product>
-                    <article class="product">
-                      <a href="product.html" data-url>
-                        <img
-                          src="img/products/4.jpg"
-                          class="img-fluid"
-                          data-img
-                        />
-                      </a>
-
-                      <h3>
-                        <a
-                          href="product.html"
-                          data-product-url
-                          data-name
-                          data-url
-                          >Apple cinema</a
-                        >
-                      </h3>
-
-                      <span class="description" data-product-description>
-                        Lorem ipsum
-                      </span>
-
-                      <div class="price-group">
-                        <div class="old-price">
-                          <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>385</span>
-                        </div>
-
-                        <div class="price">
-                          <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>315</span>
-                        </div>
-                      </div>
-
-                      <div class="btngroup">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-secondary"
-                          title="Add to Cart"
-                          data-product-cart-url
-                          data-vvveb-action="addCart"
-                        >
-                          <i class="la la-shopping-cart"></i> Add to cart
-                        </button>
-
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to favorites"
-                          data-product-fav-url
-                        >
-                          <i class="la la-heart"></i>
-                        </button>
-
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to compare"
-                          data-product-compare-url
-                        >
-                          <i class="la la-exchange"></i>
-                        </button>
-                      </div>
-                    </article>
-                    <!-- product -->
-                  </div>
-                  <!-- col-md -->
-
-                  <div class="item" data-product>
-                    <article class="product">
-                      <a href="product.html" data-url>
-                        <img
-                          src="img/products/5.jpg"
-                          class="img-fluid"
-                          data-img
-                        />
-                      </a>
-
-                      <h3>
-                        <a
-                          href="product.html"
-                          data-product-url
-                          data-name
-                          data-url
-                          >Apple cinema</a
-                        >
-                      </h3>
-
-                      <span class="description" data-product-description>
-                        Lorem ipsum
-                      </span>
-
-                      <div class="price-group">
-                        <div class="old-price">
-                          <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>385</span>
-                        </div>
-
-                        <div class="price">
-                          <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>315</span>
-                        </div>
-                      </div>
-
-                      <div class="btngroup">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-secondary"
-                          title="Add to Cart"
-                          data-product-cart-url
-                          data-vvveb-action="addCart"
-                        >
-                          <i class="la la-shopping-cart"></i> Add to cart
-                        </button>
-
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to favorites"
-                          data-product-fav-url
-                        >
-                          <i class="la la-heart"></i>
-                        </button>
-
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to compare"
-                          data-product-compare-url
-                        >
-                          <i class="la la-exchange"></i>
-                        </button>
-                      </div>
-                    </article>
-                    <!-- product -->
-                  </div>
-                  <!-- col-md -->
-
-                  <div class="item" data-product>
-                    <article class="product">
-                      <a href="product.html" data-url>
-                        <img
-                          src="img/products/6.jpg"
-                          class="img-fluid"
-                          data-img
-                        />
-                      </a>
-
-                      <h3>
-                        <a
-                          href="product.html"
-                          data-product-url
-                          data-name
-                          data-url
-                          >Apple cinema</a
-                        >
-                      </h3>
-
-                      <span class="description" data-product-description>
-                        Lorem ipsum
-                      </span>
-
-                      <div class="price-group">
-                        <div class="old-price">
-                          <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>385</span>
-                        </div>
-
-                        <div class="price">
-                          <span class="currency" data-product-currency>$</span>
-                          <span data-product-price>315</span>
-                        </div>
-                      </div>
-
-                      <div class="btngroup">
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to favorites"
-                          data-product-fav-url
-                        >
-                          <i class="la la-heart"></i>
-                        </button>
-
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-link"
-                          title="Add to compare"
-                          data-product-compare-url
-                        >
-                          <i class="la la-exchange"></i>
-                        </button>
-
-                        <button
-                          type="button"
-                          class="btn btn-sm btn-secondary"
-                          title="Add to Cart"
-                          data-product-cart-url
-                          data-vvveb-action="addCart"
-                        >
-                          <i class="la la-shopping-cart"></i> Add to cart
-                        </button>
+                      
                       </div>
                     </article>
                     <!-- product -->
@@ -976,9 +884,6 @@
             ></div>
           </div>
         </div>
-      </div>
-
-      
     </div>
 
     <div
